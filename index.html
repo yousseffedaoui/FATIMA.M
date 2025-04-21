@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bonjour chez Wafae</title>
+    <title>Bonjour chez Fatima</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -267,7 +267,7 @@
 </head>
 <body>
     <header>
-        <h1>Bonjour chez Wafae</h1>
+        <h1>Bonjour chez Fatima</h1>
         <p>Merci d'avoir visité mon site, Veuillez passer votre commande</p>
     </header>
 
@@ -680,7 +680,7 @@
                 orderDetails += `Adresse: ${customerAddress}`;
                 
                 // Envoyer par email
-                fetch('https://formsubmit.co/ajax/yousseffedaoui@gmail.com', {
+                fetch('https://formsubmit.co/ajax/fatima.marzouzi@gmail.com', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
@@ -692,7 +692,7 @@
                         email: customerEmail,
                         address: customerAddress,
                         order: orderDetails,
-                        _subject: 'Nouvelle commande sur Wafae Shop'
+                        _subject: 'Nouvelle commande sur Fatima Shop'
                     })
                 })
                 .then(response => response.json())
